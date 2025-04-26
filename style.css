@@ -35,7 +35,7 @@ header {
 .titre {
   display: flex;
   justify-content: center;
-  gap: 10px; /* espace entre les lettres */
+  gap: 5px;
   font-size: 50px;
   cursor: default;
 }
