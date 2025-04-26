@@ -31,3 +31,19 @@ header {
     background-color: rgb(255, 255, 255);
     margin: 4.5px 0;
 }
+
+.titre {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* espace entre les lettres */
+  font-size: 50px;
+  cursor: default;
+}
+
+.titre span {
+  transition: transform 0.3s;
+}
+
+.titre span:hover {
+  transform: scale(1.5);
+}
