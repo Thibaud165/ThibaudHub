@@ -47,3 +47,9 @@ header {
 .titre span:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 600px) {
+    .titre {
+        font-size: 25px;
+    }
+}
