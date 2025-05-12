@@ -48,6 +48,14 @@ header {
   transform: scale(1.2);
 }
 
+main div {
+    background-color: #383A41;
+    border-radius: 10px;
+    height: 200px;
+    widgth: 100px;
+    padding: 10px
+}
+
 @media (max-width: 600px) {
     .titre {
         font-size: 25px;
